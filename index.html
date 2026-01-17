@@ -1,12 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal Solutions Limited</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .eb-garamond-font {
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+      }
+    </style>
   </head>
-  <body>
-    <header></header>
+  <body class="eb-garamond-font">
+    <header>
+      <nav class="flex max-w-6xl mx-auto my-0 justify-between">
+        <div>
+          <img class="mt-14" src="images/Group 2.png" alt="" />
+        </div>
+        <ul class="flex ml-32 gap-8 mt-16 text-[#707070]">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services ></a></li>
+          <li><a href="">Cases ></a></li>
+          <li><a href="">Blog ></a></li>
+          <li><a href="">Contact Us ></a></li>
+        </ul>
+        <div class="justify-center mt-12">
+          <button
+            class="border-1 border-solid bg-[#B68C5A] px-[29px] py-[18px] text-neutral-50 font-semibold text-[1.125rem] rounded-lg"
+          >
+            Free Consultation
+          </button>
+        </div>
+      </nav>
+      <div
+        class="bg-[url(/images/banner.png)] bg-no-repeat bg-cover h-[550px] w-[1170px] mx-auto mt-[70px]"
+        id="banner"
+      >
+        <div class="continer py-[104px] px-[239px]">
+          <h1
+            class="text-center mb-[24px] font-extrabold text-7xl text-neutral-50"
+          >
+            We Provide Effective Legal Solutions
+          </h1>
+          <p
+            class="text-neutral-50 text-center font-normal text-[1rem] leading-[26px] text-[#E7E7E7] mb-[32px]"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <input
+            class="bg-neutral-50 py-5 pr-[314px] pl-5 rounded-lg"
+            type="text"
+            name=""
+            id=""
+            placeholder="Search your services"
+          />
+          <input
+            class="py-[17px] px-[39px] bg-[#B68C5A] ml-6 rounded-lg font-semibold text-neutral-50 text-[18px]"
+            type="button"
+            value="Search"
+          />
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
